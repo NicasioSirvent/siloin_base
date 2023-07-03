@@ -1,0 +1,25 @@
+[2023-06-30 20:27:30,800] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-06-30 20:27:30,800] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2023-07-01 18:25:36,555] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-07-01 18:25:36,556] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2023-07-01 18:29:29,460] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-07-01 18:29:29,460] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2023-07-01 18:29:47,987] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-07-01 18:29:47,987] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2023-07-01 18:29:47,990] INFO in _internal:  * Restarting with stat
+[2023-07-01 18:29:48,463] WARNING in _internal:  * Debugger is active!
+[2023-07-01 18:29:48,604] INFO in _internal:  * Debugger PIN: 166-122-886
+[2023-07-01 18:33:02,497] INFO in _internal:  * Detected change in '/home/n/dev/workspace/BeCloud/codigo/siloin2/app/init.py', reloading
+[2023-07-01 18:33:02,603] INFO in _internal:  * Restarting with stat
+[2023-07-01 18:33:03,292] WARNING in _internal:  * Debugger is active!
+[2023-07-01 18:33:03,292] INFO in _internal:  * Debugger PIN: 166-122-886
+[2023-07-01 18:33:09,344] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-07-01 18:33:09,344] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2023-07-01 18:33:09,345] INFO in _internal:  * Restarting with stat
+[2023-07-01 18:33:09,811] WARNING in _internal:  * Debugger is active!
+[2023-07-01 18:33:09,811] INFO in _internal:  * Debugger PIN: 166-122-886

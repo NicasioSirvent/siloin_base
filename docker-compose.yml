@@ -1,0 +1,32 @@
+volumes:
+  siloin-vol:
+
+services:
+
+  pgsql:
+    image: postgres:15.3
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: pwd
+      POSTGRES_USER: usr
+      POSTGRES_DB: siloin
+    volumes:
+      - siloin-vol:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+  pgadmin:
+    image: dpage/pgadmin4:6.14
+    restart: unless-stopped
+    environment:
+      PGADMIN_DEFAULT_PASSWORD: pwd
+      PGADMIN_DEFAULT_EMAIL: test@test.com
+      PGADMIN_LISTEN_PORT: 8080
+    ports:
+      - 8080:8080
+    depends_on:
+      - pgsql
+
+networks:
+  siloin-net:
+    driver: bridge

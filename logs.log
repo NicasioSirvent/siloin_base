@@ -1,0 +1,219 @@
+[2023-06-30 18:11:52,791] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-06-30 18:11:52,792] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2023-06-30 18:12:14,010] INFO in _internal: 127.0.0.1 - - [30/Jun/2023 18:12:14] "GET / HTTP/1.1" 200 -
+[2023-06-30 20:28:10,237] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-06-30 20:28:10,238] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2023-07-01 18:01:46,114] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-07-01 18:01:46,115] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2023-07-01 18:02:01,200] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:02:01] "GET / HTTP/1.1" 200 -
+[2023-07-01 18:02:01,345] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:02:01] "GET /static/css/login.css HTTP/1.1" 200 -
+[2023-07-01 18:02:01,462] INFO in init: 404 => user tried to access route /static/img/siloin.png?
+[2023-07-01 18:02:01,462] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:02:01] "[33mGET /static/img/siloin.png HTTP/1.1[0m" 404 -
+[2023-07-01 18:06:06,554] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:06:06] "GET / HTTP/1.1" 200 -
+[2023-07-01 18:06:06,642] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:06:06] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+[2023-07-01 18:06:06,646] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:06:06] "GET /static/img/siloin.png HTTP/1.1" 200 -
+[2023-07-01 18:06:30,346] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:06:30] "GET / HTTP/1.1" 200 -
+[2023-07-01 18:06:30,439] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:06:30] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+[2023-07-01 18:06:30,447] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:06:30] "[36mGET /static/img/siloin.png HTTP/1.1[0m" 304 -
+[2023-07-01 18:06:43,189] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:06:43] "GET / HTTP/1.1" 200 -
+[2023-07-01 18:06:43,278] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:06:43] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+[2023-07-01 18:06:43,284] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:06:43] "[36mGET /static/img/siloin.png HTTP/1.1[0m" 304 -
+[2023-07-01 18:07:18,308] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:07:18] "GET / HTTP/1.1" 200 -
+[2023-07-01 18:07:18,405] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:07:18] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+[2023-07-01 18:07:18,413] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:07:18] "[36mGET /static/img/siloin.png HTTP/1.1[0m" 304 -
+[2023-07-01 18:08:01,846] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:08:01] "GET / HTTP/1.1" 200 -
+[2023-07-01 18:08:01,935] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:08:01] "GET /static/css/login.css HTTP/1.1" 200 -
+[2023-07-01 18:08:01,949] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:08:01] "[36mGET /static/img/siloin.png HTTP/1.1[0m" 304 -
+[2023-07-01 18:14:32,531] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:14:32] "GET / HTTP/1.1" 200 -
+[2023-07-01 18:14:32,633] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:14:32] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+[2023-07-01 18:14:32,644] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:14:32] "[36mGET /static/img/siloin.png HTTP/1.1[0m" 304 -
+[2023-07-01 18:21:54,577] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:21:54] "GET / HTTP/1.1" 200 -
+[2023-07-01 18:21:54,804] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:21:54] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+[2023-07-01 18:21:54,812] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:21:54] "[36mGET /static/img/siloin.png HTTP/1.1[0m" 304 -
+[2023-07-01 18:22:31,618] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:22:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2023-07-01 18:22:31,640] ERROR in _internal: Error on request:
+Traceback (most recent call last):
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/werkzeug/serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/werkzeug/serving.py", line 325, in execute
+    application_iter = app(environ, start_response)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/app/app.py", line 10, in index
+    return redirect(url_for('login'))
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/app/templates/login.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/app/templates/base.html", line 14, in top-level template code
+    {% block body %}
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/app/templates/login.html", line 8, in block 'body'
+    <form class="form-signin" action="{{ url_for('login')}}">
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1697, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1686, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/werkzeug/routing/map.py", line 950, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'login'. Did you mean 'index' instead?
+[2023-07-01 18:22:39,955] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:22:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2023-07-01 18:22:39,956] ERROR in _internal: Error on request:
+Traceback (most recent call last):
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/werkzeug/serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/werkzeug/serving.py", line 325, in execute
+    application_iter = app(environ, start_response)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/app/app.py", line 10, in index
+    return redirect(url_for('login'))
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/app/templates/login.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/app/templates/base.html", line 14, in top-level template code
+    {% block body %}
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/app/templates/login.html", line 8, in block 'body'
+    <form class="form-signin" action="{{ url_for('login')}}">
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1697, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1686, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/werkzeug/routing/map.py", line 950, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'login'. Did you mean 'index' instead?
+[2023-07-01 18:22:50,786] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:22:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2023-07-01 18:22:50,788] ERROR in _internal: Error on request:
+Traceback (most recent call last):
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/werkzeug/serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/werkzeug/serving.py", line 325, in execute
+    application_iter = app(environ, start_response)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/app/app.py", line 10, in index
+    return redirect(url_for('login'))
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/app/templates/login.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/app/templates/base.html", line 14, in top-level template code
+    {% block body %}
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/app/templates/login.html", line 8, in block 'body'
+    <form class="form-signin" action="{{ url_for('login')}}">
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1697, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1686, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/werkzeug/routing/map.py", line 950, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'login'. Did you mean 'index' instead?
+[2023-07-01 18:22:51,443] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:22:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2023-07-01 18:22:51,445] ERROR in _internal: Error on request:
+Traceback (most recent call last):
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/werkzeug/serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/werkzeug/serving.py", line 325, in execute
+    application_iter = app(environ, start_response)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/app/app.py", line 10, in index
+    return redirect(url_for('login'))
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/app/templates/login.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/app/templates/base.html", line 14, in top-level template code
+    {% block body %}
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/app/templates/login.html", line 8, in block 'body'
+    <form class="form-signin" action="{{ url_for('login')}}">
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1697, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/flask/app.py", line 1686, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "/home/n/dev/workspace/BeCloud/codigo/siloin2/.venv/lib/python3.8/site-packages/werkzeug/routing/map.py", line 950, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'login'. Did you mean 'index' instead?
+[2023-07-01 18:23:41,782] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-07-01 18:23:41,782] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2023-07-01 18:23:44,945] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:23:44] "[32mGET / HTTP/1.1[0m" 302 -
+[2023-07-01 18:23:44,965] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:23:44] "GET /login HTTP/1.1" 200 -
+[2023-07-01 18:23:45,071] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:23:45] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+[2023-07-01 18:23:45,081] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:23:45] "[36mGET /static/img/siloin.png HTTP/1.1[0m" 304 -
+[2023-07-01 18:23:50,951] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:23:50] "GET /login HTTP/1.1" 200 -
+[2023-07-01 18:23:51,154] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:23:51] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+[2023-07-01 18:23:51,162] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:23:51] "[36mGET /static/img/siloin.png HTTP/1.1[0m" 304 -
+[2023-07-01 18:24:39,533] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:24:39] "GET /login HTTP/1.1" 200 -
+[2023-07-01 18:24:39,720] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:24:39] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+[2023-07-01 18:24:39,737] INFO in _internal: 127.0.0.1 - - [01/Jul/2023 18:24:39] "[36mGET /static/img/siloin.png HTTP/1.1[0m" 304 -
+[2023-07-01 18:33:52,488] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-07-01 18:33:52,488] INFO in _internal: [33mPress CTRL+C to quit[0m
