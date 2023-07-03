@@ -23,6 +23,11 @@ erDiagram
     floor {
         Int id PK
         Int num
+        String plano_url
+        Int coord_sup_izq
+        Int coord_sup_der
+        Int coord_inf_izq
+        Int coord_sup_der 
         Int building_id FK
     }
     building ||--o{ floor : has
