@@ -1,51 +1,96 @@
 ```mermaid
 erDiagram
-    user {
+    usuarios {
         Int id PK
-        String name
-        String password
+        String nombre
+        String clave
         String email
+        Int id_empresa FK
+        Int id_perfil FK
+        String movil
+        Time creado
+        Time ultimo_login
+        Int activo
     }
 
- 
-    user }o--o{ floor : puede_ver_mapa_de
-
-    user_floor {
-        Int user_id
-        Int floor_id
-    }
-
-    building {
+    empresas {
         Int id PK
-        String name
+        String nombre
+        String nif
+        String direccion
+        String provincia
+        String pais
+        String registro
+        String movil
+        String web
+        Time creado
+
+    }
+    empresas ||--o{ usuarios : has
+    
+    perfiles {
+        Int id PK
+        String descripcion
+        Time cread
+        Int activo
+    }
+    usuarios ||--o{ perfiles : has
+
+    usuarios }o--o{ plantas : puede_ver_mapa_de
+
+    usuarios_plantas {
+        Int id_usuario
+        Int id_planta
     }
 
-    floor {
+    edificios {
         Int id PK
-        Int num
+        String nombre
+    }
+
+    plantas {
+        Int id PK
+        Int numero
         String plano_url
         Point coord_sup_izq
         Point coord_sup_der
         Point coord_inf_izq
         Point coord_sup_der 
-        Int building_id FK
+        Int id_edificio FK
     }
-    building ||--o{ floor : has
+    edificios ||--o{ plantas : has
 
-    device {
+    dispositivos {
         Int id PK
-        String name
-        Int battery_level
+        String nombre
+        Int id_tipo_dispositivo FK
     }
 
-    point {
+    tipo_dispositivo {
+        Int id PK
+        String nombre
+    }
+
+    dispositivos ||--o{ tipo_dispositivo : has
+
+    estado_dispositivo {
+        Int nivel_bateria    
+        Int humedad
+        Int temperatura
+        Date timestamp
+        Int id_dispositivo FK
+    }
+    dispositivos ||--o{ estado_dispositivo : has
+
+    puntos {
         Int id PK
         Int x
         Int y
-        Int device_id FK
-        Date Timestamp 
+        Int z
+        Int id_dispositivo FK
+        Date timestamp 
     }
-    device ||--o{ point : is_located
+    dispositivos ||--o{ puntos : is_located
 
     
 ```
