@@ -24,10 +24,10 @@ erDiagram
         Int id PK
         Int num
         String plano_url
-        Int coord_sup_izq
-        Int coord_sup_der
-        Int coord_inf_izq
-        Int coord_sup_der 
+        Point coord_sup_izq
+        Point coord_sup_der
+        Point coord_inf_izq
+        Point coord_sup_der 
         Int building_id FK
     }
     building ||--o{ floor : has
