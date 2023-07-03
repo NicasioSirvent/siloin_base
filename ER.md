@@ -2,8 +2,9 @@
 erDiagram
     user {
         Int id PK
-        String username
-        Int serverId FK
+        String name
+        String password
+        String email
     }
 
  
