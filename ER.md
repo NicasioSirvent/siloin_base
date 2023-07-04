@@ -52,10 +52,7 @@ erDiagram
         Int id PK
         Int numero
         String plano_url
-        Point coord_sup_izq
-        Point coord_sup_der
-        Point coord_inf_izq
-        Point coord_sup_der 
+        String coordenadas
         Int id_edificio FK
     }
     edificios ||--o{ plantas : has
