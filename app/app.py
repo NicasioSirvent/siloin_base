@@ -3,7 +3,7 @@ import sys
 
 from sqlalchemy import select
 from database import db_session
-from models import User
+from models import Usuario
 from init import create_app
 
 app = Flask(__name__)
@@ -21,19 +21,19 @@ def login():
     error = None
     #ver si username en bd:
     #myUser = db_session.scalar(select(User).filter_by(name=request.form['username']))
-    myUser = db_session.scalar(select(User).where(User.name == request.form['username']))
+    myUser = db_session.scalar(select(Usuario).where(Usuario.nombre == request.form['username']))
     if not myUser:
       error = "Usuario no Existe"
       return render_template('login.html', error=error)
 
     #comprobar contraseña
-    if request.form['password'] != myUser.password:
+    if request.form['password'] != myUser.clave:
       error = "Clave Erronea"
       return render_template('login.html', error=error)
       
     #ok
     flash('You were successfully logged in')
-    session['name'] = myUser.name
+    session['name'] = myUser.nombre
     session['id'] = myUser.id
     return redirect(url_for('index'))
   else:         
