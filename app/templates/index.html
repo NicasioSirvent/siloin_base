@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block body %}
-  <h1>Overview</h1>
+  <h1>Home Page</h1>
   {% if session['name'] %}
     <p>Bienvenido {{session['name']}} ! <a href="{{ url_for('logout') }}">log out</a></p>
   {% else %}
